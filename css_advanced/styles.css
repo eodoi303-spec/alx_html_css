@@ -178,5 +178,51 @@ padding-right: 139px;
     color: white;
 }
 .pro2{
-   color: #d94fff;
+   color: #c271ff;
+}
+
+.purple{
+   background-color: #c271ff;
+   overflow: hidden; 
+   /* flex-direction: column;
+   display: flex; */
+   /* width: 100%; */
+   padding: 40px 20px;
+}
+.tutorials {
+   width: 20%;
+   float: left;
+   margin-top: 50px;
+   align-items: center;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   margin-left: 150px;  
+      /* width: 30%; */
+}
+blockquote{
+   
+   float: right;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin-top: 70px;
+   font-size: 16px;
+   
+   
+}
+.block h3{
+   color: white;
+    width: 60%; 
+   float: right;
+   /* justify-content: center;
+   align-items: center; */
+   
+}
+.block p{
+   color: white;
+  width: 60%; 
+   float: right;
+   /* justify-content: center;
+   align-items: center; */
+   
 }
