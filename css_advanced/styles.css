@@ -226,3 +226,94 @@ blockquote{
    align-items: center; */
    
 }
+.play{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 10px 0 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding: 50px;
+   overflow: hidden;
+   background-color: white;
+   margin-left: 80px;
+   margin-right: 80px;
+
+
+}
+.popularr{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 70px;
+   font-weight: 400px;
+}
+.popularr span{
+   color: #d94fff;
+   font-weight: 700px;
+}
+/* .play p{
+   text-align: justify;
+} */
+/* .play img{
+   width: 20px;
+   height: 20px; */
+/* } */
+.happy{
+   background: url(images/9.png);
+   width: 250px;
+   height: 150px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   text-align: justify;
+}
+.sad{
+   background: url(images/7.png);
+   width: 250px;
+   height: 150px;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+
+}
+.natural{
+   background: url(images/8.png);
+   width: 250px;
+   height: 150px;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.diagonal{
+   background: url(images/6.png);
+   width: 250px;
+   height: 150px;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.png1 img{
+   width: 30px;
+   height: 30px;
+}
+.png1{
+   flex-direction: rows;
+   display: flex;
+   align-items: center;
+   row-gap: 20px;
+   color: #d94fff;
+   
+}
+.png1 h4{
+   margin-left: 10px;
+}
+
+.rating{
+   flex-direction: rows;
+   display: flex;
+   align-items: center;
+   row-gap: 80px;
+   color: #d94fff; 
+}
