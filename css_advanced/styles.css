@@ -312,8 +312,74 @@ blockquote{
 
 .rating{
    flex-direction: rows;
-   display: flex;
+   /* display: flex; */
    align-items: center;
+   justify-content: center;
    row-gap: 80px;
    color: #d94fff; 
+}
+.membership{
+    background-color: #061729; 
+    overflow: hidden;
+   /* padding-top: 70px;
+   padding-bottom: 50px;  */
+}
+
+.smiling{
+  
+   flex-direction: rows; 
+    display: flex; 
+   align-items: center;
+   /* row-gap: 20px; */
+   justify-content: center; 
+   margin-left: 100px;
+   margin-right: 100px;
+   gap: 90px; 
+}
+.smiling h3{
+   color: white;
+   text-align: center;
+}
+.smiling p{
+   color: white;
+   text-align: justify;
+   width: 150px;
+  
+}
+.smilepng{
+   align-items: center;
+   display: flex; 
+   justify-content: center;
+   
+}
+
+.free{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   margin-top: 90px;
+   margin-bottom: 70px;
+}
+.free-bttn{
+   background-color: #d94fff;
+    background-color: #d94fff;
+    color: white;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.section-title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.member{
+   color: white;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+span{
+   color: #c271ff;
 }
