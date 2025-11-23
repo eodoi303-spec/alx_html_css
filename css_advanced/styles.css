@@ -1,10 +1,11 @@
 html{
-    margin: 0;
+     margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit; 
-	/* vertical-align: baseline;*/
+   line-height: 1.1;
+	font: inherit;  
+	/*vertical-align: baseline;*/
 }
 .momo-trust-display-regular {
   font-family: "Momo Trust Display", sans-serif;
@@ -32,7 +33,7 @@ html{
 .hero{
     background: url(images/Object.png);
 
-     /* display: flex;   */
+     /* display: flex;    */
     height: 170vh;
     /* height: 1200px; */
     /* flex-direction: row; */
@@ -51,27 +52,36 @@ html{
     height: 100%;
     
 } */
- .logo{
-    float: left;
-    margin: 12px 12px;
+ /* .logo{ */
+    /* float: left;
+    margin: 12px 12px; */
 
- }
+ 
  .navbar{
     /* position: absolute; */
-    display: flex;
+    /* display: flex; */
     /* float: right; */
     /* z-index: 2; */
     justify-content: space-between;
    overflow: hidden; 
    /* align-items: center; */
  }
+ .new{
+   display: flex;
+  gap: 250px;
+   justify-content: space-between; 
+   flex-direction: row;
+   margin-top: 40px;
+   margin-left: 80px;
+   margin-right: 80px; 
+ }
  .navbar-links{
-    list-style: none;
-    display: flex;
+     list-style: none;
+     display: flex;
     gap: 30px;
-    float: right;
+    /* float: right;  */
     text-decoration: none;
-    
+     
  }
  .navbar-links a{
     text-decoration: none;
@@ -79,16 +89,36 @@ html{
     font-weight: 600;
     font-size: 14px;
  }
- .hero-inner{
-     position: relative; 
-    /* z-index: 2; */
- }
- .hero-inner{
-    /* justify-content: center; */
+ .grin{
+   color: white;
     display: flex;
-    /* align-items: center; */
-    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+   /* justify-content: space-between; */
+    word-spacing: 50px;  
+    margin-top: 0px;
  }
+
+ 
+ .hero-inner{ 
+  
+     padding-bottom: 0px;
+    gap: 0px;
+    margin: 0px;
+ } 
+
+  .hero-inner h1{
+      display: flex;  
+     font-size: 150px; 
+      /* margin: 2px;   */
+     margin-bottom: 2px;
+    /* margin-bottom: 10px; */
+     align-items: center;
+    justify-content: center; 
+    color: white;
+     margin-top: 130px; 
+    margin-bottom: 0px;   
+}
  .circles{
     display: flex;
     justify-content: space-evenly;
@@ -99,13 +129,13 @@ html{
     margin-top: 80px;
     margin-bottom: 98px;
     gap: 10px;
-padding-left: 139px;
-padding-right: 139px;
+    padding-left: 139px;
+    padding-right: 139px;
  }
  .circles img{
    border-radius: 50%; 
    
-    margin-bottom: 10px;
+    margin-top: 10px;
     width: 150px;
     height: 150px;
 
@@ -120,39 +150,12 @@ padding-right: 139px;
    color: white;
  }
 
- 
- .hero-inner h1 {
-    display: flex;
-    font-size: 120px;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin-top: 200px;
-}
-.hero-inner p{
-   margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-
-}
-
-.tags {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    margin: 10px 0 10px;
-    padding-bottom: 10px;
-}
 .bttn{
    display: flex;
    justify-content: center;
     align-items: center; 
     margin-bottom: 168px;
-    margin-top: 38px;
+    margin-top: 50px;
 }
 /* Button */
 .main-bttn {
@@ -166,8 +169,6 @@ padding-right: 139px;
     border-radius: 30px;
     font-size: 14px;
     cursor: pointer;
-    
-    /* margin: 200px 200px; */
     
 }
 .pro{
@@ -253,13 +254,7 @@ blockquote{
    color: #d94fff;
    font-weight: 700px;
 }
-/* .play p{
-   text-align: justify;
-} */
-/* .play img{
-   width: 20px;
-   height: 20px; */
-/* } */
+
 .happy{
    background: url(images/9.png);
    width: 250px;
@@ -421,8 +416,40 @@ justify-content: center;
 margin-left: 100px;
 margin-right: 100px;
 margin-top: 20px;
+margin-bottom: 60px;
 }
 .fact2sub{
    width: 300px;
    text-align: justify;
+}
+.footer{
+   background-color: #061729;
+   /* display: flex; */
+  
+   overflow: hidden;
+}
+.footer-content{
+   display: flex;
+  gap: 250px;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-top: 50px;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
+
+
+.socials{
+   /* float: right; */
+   color: white;
+   
+}
+.logop{
+   display: flex;
+   align-items: center;
+   color: white;
+   justify-content: center;
+   font-size: 10px;
+   margin-top: 100px;
 }
