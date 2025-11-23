@@ -383,3 +383,46 @@ blockquote{
 span{
    color: #c271ff;
 }
+.faq{
+ align-items: flex-start;  
+   
+}
+.fact{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 24px;
+   font-weight: 100;
+}
+.fact1{
+ display: flex; 
+ align-items: flex-start;
+ justify-content: center;
+flex-direction: row;
+gap: 150px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 20px;
+}
+.fact1sub{
+width: 300px;
+text-align: justify;
+
+
+}
+.fact2{
+ display: flex; 
+flex-direction: row;
+align-items: center;
+gap: 150px;
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 20px;
+}
+.fact2sub{
+   width: 300px;
+   text-align: justify;
+}
