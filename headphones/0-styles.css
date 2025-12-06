@@ -1,0 +1,179 @@
+html{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+   line-height: 1.1;
+	font: inherit;  
+	/*vertical-align: baseline;*/
+}
+
+header{
+  background: url(images/headphones_hero_1.jpg); 
+  height: 120vh; 
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 20px;
+}
+
+/* Hamburger button */
+.menu-btn {
+    display: none;
+    background-color: none;
+    color: #B85C89;
+    font-size: 20px;
+}
+@media (max-width: 480px) {
+    .logo img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        z-index: 1200;
+        padding: 6px 10px;
+        font-size: 24px;
+    }.menu-btn i {
+        transition: transform 220ms ease;
+    }
+
+    .menu-btn[aria-expanded="true"] i {
+        transform: rotate(90deg);
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        padding: 15px 0;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    } .nav-links.show {
+        display: block;
+        background: rgba(0, 0, 0, 0.32);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .nav-links li a {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav-links li a.active {
+
+   color: #B85C89;
+    }
+
+    .nav-links li a:hover {
+        color: #B85C89;
+    }
+
+    .translate-box {
+        margin: auto;
+    }
+
+
+}
+/* end of responsive for navbar */
+
+.logo img{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 160px;
+    height: 30px;
+} 
+ .nav{
+    display: flex;
+    flex-direction: row;
+    /* float: right; */
+    text-decoration: none;
+    color: white;
+    gap: 30px;
+    margin-top: 40px;
+} 
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}  
+
+.heading h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 290px;
+    margin-bottom: 0px;
+}
+.headings p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+   
+}
+
+.bttn{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+button{
+    background-color: rgb(219, 91, 75);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+ border: 1px solid rgba(255,255,255,0.2);
+}
+
+.lorem{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 300px; 
+    margin-right: 300px; 
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width:480px){
+    .navbar{display: inline-block;}
+    
+}

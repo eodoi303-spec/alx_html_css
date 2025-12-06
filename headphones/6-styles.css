@@ -1,0 +1,74 @@
+html{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+   line-height: 1.1;
+	font: inherit;  
+	/*vertical-align: baseline;*/
+}
+.penta{
+ background: url(images/headphones_hero_2.jpg);
+ height: 140vh;
+}
+ 
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding-top: 120px;
+    padding-bottom: 30px;
+    color: white;
+}
+.para2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    line-height: 1.8; 
+      text-align: center;
+      color: white;
+      text-align: center;
+      padding-left: 100px;
+      padding-right: 100px;
+}
+.percentage{
+   
+    display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   justify-content: center;
+   gap: 150px;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 100px;
+}.percentage1{
+   
+    display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   justify-content: center;
+    gap: 150px;
+   margin-left: 200px;
+   margin-right: 200px;
+margin-bottom: 100px;
+}
+.pentagon{
+    /* background: url(images/pentagone.png);
+   background-repeat: no-repeat; */
+   /* background-size: cover;
+   background-position: center;
+   padding: 100px 0; */
+    width: 180px;
+   height: 180px; 
+   background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   box-shadow: 0 10px 30px rgba(225, 82, 82, 0.3);
+   /* background-size: contain; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
