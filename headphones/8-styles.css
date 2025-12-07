@@ -333,10 +333,10 @@ margin-bottom: 100px;
 width: 100px;
 max-width: 600px;
 padding: 20px;
-}
+} */
 .form-group{
     margin-bottom: 35px;
-} */
+} 
 
 .contact{
 display: flex;
@@ -345,15 +345,15 @@ justify-content: center;
 padding-top: 100px;
 padding-bottom: 50px;
 }
-
-/* form { */
-    /* background: #ffffff;
+/* 
+  form { 
+     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
-} */
+    max-width: 400px; 
+}  */
 
 label {
     margin-bottom: 5px;

@@ -44,13 +44,31 @@ body{
 
 /* Nav layout */
 .navbar{
-  display:flex;
+  /* display:flex;
   align-items:center;
   justify-content:space-between;
   gap:1rem;
-  align-items:center;
+  align-items:center; */
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 20px;
 }
-.logo img{display:block; width:160px; height:auto}
+
+
+.logo img{
+  /* display:block;
+   width:160px; 
+   height:auto */ 
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 160px;
+    height: 30px;
+
+  }
+
 
 .menu-btn{
   display:none;
@@ -60,6 +78,26 @@ body{
   font-size:1.25rem;
   padding:.25rem .5rem;
 }
+ .nav{
+    display: flex;
+    flex-direction: row;
+    /* float: right; */
+    text-decoration: none;
+    color: white;
+    gap: 30px;
+    margin-top: 40px;
+ }
+ .nav li{
+    list-style: none;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}  
+
+
+
 .nav-links{
   display:flex;
   gap:1.5rem;
